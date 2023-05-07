@@ -7,7 +7,7 @@
 }
 
 :root {
-    --navbar: #8372e4d2;
+    --navbar:;
 }
 
 body {
@@ -18,23 +18,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8372e4d2;
+    background-color: #536976;
     height: 80px;
     margin-top: 5px;
     font-size: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
-img {
+ header img {
     border-radius: 20px;
     width: 100px;
     padding: 10px;
     height: 90px;
 }
 
-li a {
+.nav-bar li a {
     background-color: rgb(225, 227, 235);
-    border-radius: 15px;
+    border-radius: 12px;
     padding: 10px;
+    font-weight: 600;
 }
 
 .nav-bar {
@@ -47,4 +51,70 @@ li a {
 .nav-bar li {
     padding: 3px;
     max-height: 40px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #528aaa;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 30px;
+    width: 50%;
+}
+
+.hero-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-head h2, p{
+    padding: 10px;
+}
+
+.btn-hero{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#btn-contact,
+#btn-info{
+    padding: 10px;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.hero-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.more-info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(#bbd2c5, #536976);
+}
+
+.more-info p{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
 }
