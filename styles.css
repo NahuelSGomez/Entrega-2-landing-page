@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -29,16 +29,18 @@ header {
 
  header img {
     border-radius: 20px;
-    width: 100px;
-    padding: 10px;
-    height: 90px;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    height: 80px;
 }
 
 .nav-bar li a {
     background-color: rgb(225, 227, 235);
     border-radius: 12px;
     padding: 10px;
-    font-weight: 600;
+    font-weight: bold;
+    color: #3a464d;
 }
 
 .nav-bar {
@@ -87,13 +89,18 @@ header {
     width: 100%;
 }
 
+.btn-hero a{
+    color: #3a464d;
+}
+
 #btn-contact,
 #btn-info{
     padding: 10px;
     margin: 10px;
     font-size: 13px;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 12px;
+    border: 1px solid #536976;
 }
 
 .hero-img img{
