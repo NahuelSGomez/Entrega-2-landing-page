@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="/logo-ng.png" alt="logo oniros">
+            <img src="/logo-ng.png" alt="logo" class="logo">
         </div>
         <nav>
+            <label for="menu-toggle" class="menu-label">
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </label>
+            <input type="checkbox" id="menu-toggle" />
             <ul class="nav-bar">
                 <li><a href="/Menu.html" target="_blank">Inicio</a></li>
                 <li><a href="/acerca.html" target="_blank">Acerca de mi</a></li>
@@ -28,7 +37,7 @@
         <section class="hero">
             <div class="hero-info">
                 <div class="hero-head">
-                    <h2>¿Estas buscando iniciar terapia?</h2>
+                    <h1>¿ESTAS BUSCANDO EMPEZAR TERAPIA?</h1>
                     <p>Si estas pasando momentos dificiles, en los que experimentas angustia, miedos, tristeza; estas teniendo conflictos vinculares; o te encontras atravesando un duelo; es momento de realizar una consulta</p>
                 </div>
                 <div class="btn-hero">
@@ -41,9 +50,50 @@
             </div>
         </section>
         <section class="more-info">
-            <p>Licenciado y Profesor en Psicología por la UBA (Universidad de Buenos Aires). En 2019 realiza la diplomatura en filosofía y psicoanálisis en la UCES (Universidad de Ciencias Empresariales y Sociales).Actualmente ejerce clínica en consultorio privado como psicólogo con orientacion psicoanalitica</p>
+            <p>Licenciado y Profesor en Psicología por la UBA (Universidad de Buenos Aires). Diplomado en filosofía y psicoanálisis por la UCES (Universidad de Ciencias Empresariales y Sociales). Actualmente ejerce como psicólogo clinico con orientacion psicoanalitica para personas en Argentina o en distintas partes del mundo de habla hispana.</p>
         </section>
-        
+        <section class="advantages">
+            <div class="advantages-header">
+                <h2 class="advantages-header">¿Cuales son los beneficios de iniciar terapia online?</h2>
+                <p class="advantages-header">La terapia psicologica bajo modalidad virtual es un modo de terapia que, si bien ya se implementaba hace tiempo, se ha visto exponenciada desde el comienzo de la pandemia por COVID-19. Estos son algunos de sus beneficios:</p>
+            </div>
+            <div class="benefits">
+                <div class="benefit">
+                    <!-- <img src="" alt="icono-cercania"> -->
+                    <h2>Mayor accesibilidad</h2>
+                    <p>Personas con limitaciones o discapacidades fisicas, o que presenten fobia social, pueden acceder a esta terapia con el uso de celular o pc.</p>
+                </div>
+                <div class="benefit">
+                    <!-- <img src="" alt="icono-mundo"> -->
+                    <h2>Las barreras geograficas dejan de ser un obstaculo</h2>
+                    <p>Para aquellas personas que su realidad laboral los convoca a realizar viajes periodicos, esta modalidad de atencion les permite no interrumpir su tratamiento.</p>
+                </div>
+                <div class="benefit">
+                    <!-- <img src="" alt="icono-casa"> -->
+                    <h2>Mayor comodidad</h2>
+                    <p>Al poder mantener sesion desde cualquier lugar, resulta un facilitador del inicio de la terapia la posibilidad de realizar la misma desde la zona de confort de quien consulta.</p>
+                </div>
+            </div>    
+        </section>
+        <section class="contact">
+            <div class="contact-info">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Podes escribir un mail a:<a href="mailto:nahuelsgomez@gmail.com"> nahuelsgomez@gmail.com</a></li>
+                    <li>O tambien podes enviar un mensaje al numero de telefono: <a href="tel:+5491149800626">1149800626</a></li>
+                </ul>
+            </div>
+            <div class="contact-map">
+                <img src="Petrol.jpg" alt="imagen">
+            </div>
+        </section>
+        <section class="important">
+            <p>IMPORTANTE: La modalidad de atencion virtual no resulta recomendable si estas atravesando una crisis aguda en la que se presente riesgo de vida para si o para terceros. Para tales casos se recomienda asistir a la guardia medica psiquiatrica mas cercana a tu domicilio, o llamar al telefono de emergencias psiquiatricas de correspondencia geografica.</p>
+        </section>
+        <footer>
+            <img src="./logo-ng.png" alt="logo" id="footer-img">
+            <p>Copyright - 2023</p>
+        </footer>
     </main>
 </body>
 </html>
